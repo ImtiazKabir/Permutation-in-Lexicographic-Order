@@ -36,7 +36,6 @@ int main(
     fprintf(stderr, "Try with an integer >0\n");
     exit(EXIT_FAILURE);
   }
-  printf("%d\n", n);
 
   int arr[n];
   for (int i = 0; i < n; ++i) {
